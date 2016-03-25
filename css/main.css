@@ -11,6 +11,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   color: #222;
+  font-family: "Crimson Text", serif;
 }
 
 *, *::before, *::after {
@@ -18,7 +19,7 @@ html {
 }
 
 body {
-  margin: 1em;
+  margin: 0;
 }
 
 article {
@@ -29,8 +30,8 @@ article {
 
 article h1 {
   font-weight: normal;
-  margin-top: 1em;
-  margin-bottom: .5em;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 article header {
@@ -42,12 +43,12 @@ article header p {
   font-style: italic;
   font-size: 1rem;
   margin-top: 0;
-  margin-bottom: 1.3em;
+  margin-bottom: 1em;
 }
 
 article > p:last-child {
   border-bottom: 1px solid #999;
-  padding-bottom: 1em;
+  padding-bottom: 1.5em;
   margin-top: 0;
   margin-bottom: 1.3em;
 }
@@ -100,4 +101,5 @@ ol {
   article {
     font-size: 130%;
     line-height: 1.5;
+  }
 }
